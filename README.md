@@ -1,10 +1,26 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# QueueProject
-=======
-# QueueProject1
->>>>>>> 6f2cab97ee193cbd0730788cdbbc5858355677db
-=======
-# QueueProject
->>>>>>> 3960b5a948e03609fafb4f4e7d7ffbecfa17ff08
-Brief summary of project
+ Queue Project
+
+A .NET 8 Web API for managing queues using MongoDB, CQRS, and MediatR. 
+
+Features
+
+- Create, update, delete, and retrieve queues
+- MongoDB integration using `MongoDB.Driver`
+- CQRS pattern with MediatR
+- Clean Architecture & SOLID principles
+- Swagger UI for API documentation
+
+
+ Tech Stack
+
+| Technology     | Description                     |
+|----------------|---------------------------------|
+| .NET 8         | Web API Framework               |
+| MongoDB        | NoSQL Database                  |
+| MediatR        | CQRS and Mediator Pattern       |
+| Swagger        | API Documentation               |
+| ILogger        | Built-in Logging                |
+
+
+
+
