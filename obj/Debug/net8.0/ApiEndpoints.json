@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "QueueProject.Infrastructure.Auth.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "QueueProject.Controllers.QueuesController",
     "Method": "GetQueues",
     "RelativePath": "api/Queues",
@@ -76,6 +92,26 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QueueProject.Controllers.QueuesController",
+    "Method": "PublicEndpoint",
+    "RelativePath": "api/Queues/public",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QueueProject.Controllers.QueuesController",
+    "Method": "SecureEndpoint",
+    "RelativePath": "api/Queues/secure",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

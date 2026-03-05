@@ -11,14 +11,14 @@ namespace QueueProject.Application.Queues.Commands.UpdateQueue
     {
         
         private readonly IMongoDbContext _context;
-        private readonly ILogger<CreateQueueCommandHandler> _logger;
+        private readonly ILogger<UpdateQueueCommandHandler> _logger;
 
         /*      SOLID Principles:
            Single Responsibility(each handler does one thing)
            Using Dependency Injection to get the MongoDB context and Logger
         */
         public UpdateQueueCommandHandler(IMongoDbContext context,
-            ILogger<CreateQueueCommandHandler> logger)
+            ILogger<UpdateQueueCommandHandler> logger)
         {
             _context = context;
             _logger = logger;

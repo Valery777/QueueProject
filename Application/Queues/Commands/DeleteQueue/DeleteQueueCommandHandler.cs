@@ -12,14 +12,14 @@ namespace QueueProject.Application.Queues.Commands.DeleteQueue
     public class DeleteQueueCommandHandler : IRequestHandler<DeleteQueueCommand, bool>
     {
         private readonly IMongoDbContext _context;
-        private readonly ILogger<CreateQueueCommandHandler> _logger;
+        private readonly ILogger<DeleteQueueCommandHandler> _logger;
 
         /*      SOLID Principles:
            Single Responsibility(each handler does one thing)
            Using Dependency Injection to get the MongoDB context and Logger
         */
         public DeleteQueueCommandHandler(IMongoDbContext context, 
-            ILogger<CreateQueueCommandHandler> logger)
+            ILogger<DeleteQueueCommandHandler> logger)
         {
             _context = context;
             _logger = logger;

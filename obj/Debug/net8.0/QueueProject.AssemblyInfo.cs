@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QueueProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48407c40d9a2d05eb0f90ddf59cf9876d83941c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8eeb1de250be5c1e5ad2a67ce23298020d22e0a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("QueueProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QueueProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
